@@ -381,13 +381,13 @@
 -ffp-contract=off
 -arch arm64
 -isysroot "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
--include-pch "/Users/hemishah/Documents/Unreal Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Engine/SharedPCH.Engine.RTTI.Cpp20.h.gch"
+-include-pch "/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Engine/SharedPCH.Engine.RTTI.Cpp20.h.gch"
 -x objective-c++-header
 -std=c++20
 -Xclang -fno-pch-timestamp
 -fpch-validate-input-files-content
 -stdlib=libc++
 -fpch-instantiate-templates
-"/Users/hemishah/Documents/Unreal Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h"
--MD -MF"/Users/hemishah/Documents/Unreal Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h.d"
--o "/Users/hemishah/Documents/Unreal Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h.gch"
+"/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h"
+-MD -MF"/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h.d"
+-o "/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h.gch"

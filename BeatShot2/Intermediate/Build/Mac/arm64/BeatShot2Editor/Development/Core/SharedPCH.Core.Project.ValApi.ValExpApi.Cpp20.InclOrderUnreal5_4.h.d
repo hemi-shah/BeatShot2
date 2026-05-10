@@ -1,6 +1,6 @@
-/Users/hemishah/Documents/Unreal\ Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch: \
-  /Users/hemishah/Documents/Unreal\ Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
-  /Users/hemishah/Documents/Unreal\ Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Core/SharedDefinitions.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
+/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch: \
+  /Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
+  /Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Core/SharedDefinitions.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
   Runtime/Core/Public/CoreSharedPCH.h Runtime/Core/Public/Algo/Reverse.h \
   Runtime/Core/Public/CoreTypes.h Runtime/Core/Public/HAL/Platform.h \
   Runtime/Core/Public/Misc/Build.h \

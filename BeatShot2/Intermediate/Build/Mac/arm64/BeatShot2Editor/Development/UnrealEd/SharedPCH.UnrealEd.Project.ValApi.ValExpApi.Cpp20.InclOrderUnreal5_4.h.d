@@ -1,7 +1,7 @@
-/Users/hemishah/Documents/Unreal\ Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch: \
-  /Users/hemishah/Documents/Unreal\ Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch \
-  /Users/hemishah/Documents/Unreal\ Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
-  /Users/hemishah/Documents/Unreal\ Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Core/SharedDefinitions.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
+/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch: \
+  /Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch \
+  /Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
+  /Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Core/SharedDefinitions.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
   /Users/Shared/UE_5.7/Engine/Source/Runtime/Core/Public/CoreSharedPCH.h \
   /Users/Shared/UE_5.7/Engine/Source/Runtime/Core/Public/Algo/Reverse.h \
   /Users/Shared/UE_5.7/Engine/Source/Runtime/Core/Public/CoreTypes.h \
@@ -2653,9 +2653,9 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/arm_bf16.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/arm_vector_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json \
-  /Users/hemishah/Documents/Unreal\ Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch \
-  /Users/hemishah/Documents/Unreal\ Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
-  /Users/hemishah/Documents/Unreal\ Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/CoreUObject/SharedDefinitions.CoreUObject.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
+  /Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch \
+  /Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
+  /Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/CoreUObject/SharedDefinitions.CoreUObject.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
   /Users/Shared/UE_5.7/Engine/Source/Runtime/CoreUObject/Public/CoreUObjectSharedPCH.h \
   /Users/Shared/UE_5.7/Engine/Source/Runtime/CoreUObject/Public/Misc/NotifyHook.h \
   /Users/Shared/UE_5.7/Engine/Source/Runtime/CoreUObject/Public/Misc/PackageName.h \
@@ -2798,9 +2798,9 @@
   /Users/Shared/UE_5.7/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectVisibility.h \
   /Users/Shared/UE_5.7/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectThreadContext.h \
   /Users/Shared/UE_5.7/Engine/Source/Runtime/CoreUObject/Public/UObject/PropertyPathName.h \
-  /Users/hemishah/Documents/Unreal\ Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Slate/SharedPCH.Slate.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch \
-  /Users/hemishah/Documents/Unreal\ Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Slate/SharedPCH.Slate.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
-  /Users/hemishah/Documents/Unreal\ Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Slate/SharedDefinitions.Slate.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
+  /Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Slate/SharedPCH.Slate.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch \
+  /Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Slate/SharedPCH.Slate.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
+  /Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Slate/SharedDefinitions.Slate.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
   /Users/Shared/UE_5.7/Engine/Source/Runtime/Slate/Public/SlateSharedPCH.h \
   /Users/Shared/UE_5.7/Engine/Source/Runtime/Json/Public/Policies/JsonPrintPolicy.h \
   /Users/Shared/UE_5.7/Engine/Source/Runtime/Json/Public/Policies/PrettyJsonPrintPolicy.h \
@@ -3051,9 +3051,9 @@
   /Users/Shared/UE_5.7/Engine/Source/Runtime/Slate/Public/Widgets/Notifications/SErrorText.h \
   /Users/Shared/UE_5.7/Engine/Source/Runtime/Slate/Public/Widgets/SToolTip.h \
   /Users/Shared/UE_5.7/Engine/Source/Runtime/Slate/Public/Widgets/Views/STreeView.h \
-  /Users/hemishah/Documents/Unreal\ Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch \
-  /Users/hemishah/Documents/Unreal\ Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
-  /Users/hemishah/Documents/Unreal\ Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Engine/SharedDefinitions.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
+  /Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch \
+  /Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
+  /Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/Engine/SharedDefinitions.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
   /Users/Shared/UE_5.7/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h \
   /Users/Shared/UE_5.7/Engine/Source/Runtime/ApplicationCore/Public/GenericPlatform/IInputInterface.h \
   /Users/Shared/UE_5.7/Engine/Source/Runtime/CoreUObject/Public/AssetRegistry/AssetData.h \
@@ -4080,8 +4080,8 @@
   /Users/Shared/UE_5.7/Engine/Source/Runtime/Experimental/Chaos/Public/Chaos/Framework/PhysicsProxy.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/array \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/static_bounded_iter.h \
-  /Users/hemishah/Documents/Unreal\ Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
-  /Users/hemishah/Documents/Unreal\ Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/UnrealEd/SharedDefinitions.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
+  /Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
+  /Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/UnrealEd/SharedDefinitions.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h \
   Editor/UnrealEd/Public/UnrealEdSharedPCH.h \
   Runtime/Engine/Public/EngineSharedPCH.h \
   Runtime/Messaging/Public/IMessageContext.h \

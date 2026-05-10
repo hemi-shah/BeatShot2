@@ -340,7 +340,7 @@ ARhythmBeatManager::~ARhythmBeatManager() {}
 // ********** End Class ARhythmBeatManager *********************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_hemishah_Documents_Unreal_Projects_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics
+struct Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
 		{ FSongData::StaticStruct, Z_Construct_UScriptStruct_FSongData_Statics::NewStructOps, TEXT("SongData"),&Z_Registration_Info_UScriptStruct_FSongData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSongData), 3966318763U) },
@@ -348,11 +348,11 @@ struct Z_CompiledInDeferFile_FID_hemishah_Documents_Unreal_Projects_BeatShot2_So
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ARhythmBeatManager, ARhythmBeatManager::StaticClass, TEXT("ARhythmBeatManager"), &Z_Registration_Info_UClass_ARhythmBeatManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARhythmBeatManager), 2221263508U) },
 	};
-}; // Z_CompiledInDeferFile_FID_hemishah_Documents_Unreal_Projects_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_hemishah_Documents_Unreal_Projects_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_330003819{
+}; // Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_330003819{
 	TEXT("/Script/BeatShot2"),
-	Z_CompiledInDeferFile_FID_hemishah_Documents_Unreal_Projects_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_hemishah_Documents_Unreal_Projects_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics::ClassInfo),
-	Z_CompiledInDeferFile_FID_hemishah_Documents_Unreal_Projects_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_hemishah_Documents_Unreal_Projects_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics::ScriptStructInfo),
+	Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics::ScriptStructInfo),
 	nullptr, 0,
 };
 // ********** End Registration *********************************************************************

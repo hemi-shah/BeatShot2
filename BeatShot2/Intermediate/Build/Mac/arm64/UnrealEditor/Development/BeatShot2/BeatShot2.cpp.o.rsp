@@ -284,9 +284,9 @@
 -I"Editor/SceneDepthPickerMode/Public"
 -I"../Intermediate/Build/Mac/UnrealEditor/Inc/AnimationEditMode/UHT"
 -I"Editor/AnimationEditMode/Public"
--I"/Users/hemishah/Documents/Unreal Projects/BeatShot2/Intermediate/Build/Mac/UnrealEditor/Inc/BeatShot2/UHT"
--I"/Users/hemishah/Documents/Unreal Projects/BeatShot2/Source"
--I"/Users/hemishah/Documents/Unreal Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/UnrealEd"
+-I"/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/UnrealEditor/Inc/BeatShot2/UHT"
+-I"/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Source"
+-I"/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/UnrealEd"
 -isystem"ThirdParty/GuidelinesSupportLibrary/GSL-1144/include"
 -isystem"ThirdParty/AtomicQueue"
 -isystem"ThirdParty/RapidJSON/1.1.0"
@@ -363,8 +363,8 @@
 -ffp-contract=off
 -arch arm64
 -isysroot "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
--include-pch "/Users/hemishah/Documents/Unreal Projects/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch"
--include "/Users/hemishah/Documents/Unreal Projects/BeatShot2/Intermediate/Build/Mac/arm64/UnrealEditor/Development/BeatShot2/Definitions.BeatShot2.h"
+-include-pch "/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/BeatShot2Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch"
+-include "/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/UnrealEditor/Development/BeatShot2/Definitions.BeatShot2.h"
 -x objective-c++
 -std=c++20
 -Xclang -fno-pch-timestamp
@@ -374,6 +374,6 @@
 -fno-implicit-modules
 -fimplicit-module-maps
 -Wno-module-import-in-extern-c
-"/Users/hemishah/Documents/Unreal Projects/BeatShot2/Source/BeatShot2/BeatShot2.cpp"
--MD -MF"/Users/hemishah/Documents/Unreal Projects/BeatShot2/Intermediate/Build/Mac/arm64/UnrealEditor/Development/BeatShot2/BeatShot2.cpp.d"
--o "/Users/hemishah/Documents/Unreal Projects/BeatShot2/Intermediate/Build/Mac/arm64/UnrealEditor/Development/BeatShot2/BeatShot2.cpp.o"
+"/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Source/BeatShot2/BeatShot2.cpp"
+-MD -MF"/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/UnrealEditor/Development/BeatShot2/BeatShot2.cpp.d"
+-o "/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/UnrealEditor/Development/BeatShot2/BeatShot2.cpp.o"

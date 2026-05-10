@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"/Users/hemishah/Documents/Unreal Projects/BeatShot2/Source/BeatShot2/BeatShot2.Build.cs",
-		"/Users/hemishah/Documents/Unreal Projects/BeatShot2/Source/BeatShot2.Target.cs",
-		"/Users/hemishah/Documents/Unreal Projects/BeatShot2/Source/BeatShot2Editor.Target.cs"
+		"/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Source/BeatShot2/BeatShot2.Build.cs",
+		"/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Source/BeatShot2.Target.cs",
+		"/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Source/BeatShot2Editor.Target.cs"
 	],
 	"EngineVersion": "5.7.3"
 }

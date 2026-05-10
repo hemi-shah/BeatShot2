@@ -17,7 +17,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Delegate FOnBeat ***************************************************************
-#define FID_hemishah_Documents_Unreal_Projects_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_10_DELEGATE \
+#define FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_10_DELEGATE \
 BEATSHOT2_API void FOnBeat_DelegateWrapper(const FMulticastScriptDelegate& OnBeat);
 
 
@@ -25,7 +25,7 @@ BEATSHOT2_API void FOnBeat_DelegateWrapper(const FMulticastScriptDelegate& OnBea
 
 // ********** Begin ScriptStruct FSongData *********************************************************
 struct Z_Construct_UScriptStruct_FSongData_Statics;
-#define FID_hemishah_Documents_Unreal_Projects_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_15_GENERATED_BODY \
+#define FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_15_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FSongData_Statics; \
 	BEATSHOT2_API static class UScriptStruct* StaticStruct();
 
@@ -34,7 +34,7 @@ struct FSongData;
 // ********** End ScriptStruct FSongData ***********************************************************
 
 // ********** Begin Class ARhythmBeatManager *******************************************************
-#define FID_hemishah_Documents_Unreal_Projects_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execCheckHitAccuracy); \
 	DECLARE_FUNCTION(execStartBeat);
 
@@ -42,7 +42,7 @@ struct FSongData;
 struct Z_Construct_UClass_ARhythmBeatManager_Statics;
 BEATSHOT2_API UClass* Z_Construct_UClass_ARhythmBeatManager_NoRegister();
 
-#define FID_hemishah_Documents_Unreal_Projects_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_30_INCLASS_NO_PURE_DECLS \
+#define FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_30_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesARhythmBeatManager(); \
 	friend struct ::Z_Construct_UClass_ARhythmBeatManager_Statics; \
@@ -53,7 +53,7 @@ public: \
 	DECLARE_SERIALIZER(ARhythmBeatManager)
 
 
-#define FID_hemishah_Documents_Unreal_Projects_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_30_ENHANCED_CONSTRUCTORS \
+#define FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_30_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ARhythmBeatManager(ARhythmBeatManager&&) = delete; \
 	ARhythmBeatManager(const ARhythmBeatManager&) = delete; \
@@ -63,13 +63,13 @@ public: \
 	NO_API virtual ~ARhythmBeatManager();
 
 
-#define FID_hemishah_Documents_Unreal_Projects_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_27_PROLOG
-#define FID_hemishah_Documents_Unreal_Projects_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_30_GENERATED_BODY \
+#define FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_27_PROLOG
+#define FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_30_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_hemishah_Documents_Unreal_Projects_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_hemishah_Documents_Unreal_Projects_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_30_INCLASS_NO_PURE_DECLS \
-	FID_hemishah_Documents_Unreal_Projects_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_30_ENHANCED_CONSTRUCTORS \
+	FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_30_INCLASS_NO_PURE_DECLS \
+	FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_30_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -79,6 +79,6 @@ class ARhythmBeatManager;
 // ********** End Class ARhythmBeatManager *********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_hemishah_Documents_Unreal_Projects_BeatShot2_Source_BeatShot2_RhythmBeatManager_h
+#define CURRENT_FILE_ID FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
