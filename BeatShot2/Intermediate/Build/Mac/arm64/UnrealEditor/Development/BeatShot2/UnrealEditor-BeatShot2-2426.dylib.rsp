@@ -10,11 +10,26 @@
 -current_version 4753.73.91
 -compatibility_version 5.7.0
 -rpath @loader_path/ -rpath @executable_path/
--undefined dynamic_lookup
--Wl,-no_fixup_chains
--install_name "@rpath/UnrealEditor-BeatShot2.dylib"
+"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/Current/MultitouchSupport.tbd"
+"../Binaries/Mac/UnrealEditor-Engine.dylib"
+-rpath "@loader_path/../../../../../../../Shared/UE_5.7/Engine/Binaries/Mac"
+"../Binaries/Mac/UnrealEditor-Core.dylib"
+"../Binaries/Mac/UnrealEditor-CoreUObject.dylib"
+"../Binaries/Mac/UnrealEditor-InputCore.dylib"
+-framework "AVFoundation"
+-framework "CoreVideo"
+-framework "CoreMedia"
+-framework "Cocoa"
+-framework "Carbon"
+-framework "IOKit"
+-framework "Security"
+-framework "UniformTypeIdentifiers"
+-framework "Network"
+-framework "ScreenCaptureKit"
+-framework "SystemConfiguration"
+-install_name "@rpath/UnrealEditor-BeatShot2-2426.dylib"
 "/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/UnrealEditor/Development/BeatShot2/Module.BeatShot2.gen.cpp.o"
 "/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/UnrealEditor/Development/BeatShot2/BeatShot2.cpp.o"
 "/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/UnrealEditor/Development/BeatShot2/PerModuleInline.gen.cpp.o"
 "/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/arm64/UnrealEditor/Development/BeatShot2/RhythmBeatManager.cpp.o"
--o "/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Mac/Stubs/arm64/Development/UnrealEditor-BeatShot2.dylib"
+-o "/Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Binaries/Mac/UnrealEditor-BeatShot2-2426.dylib"

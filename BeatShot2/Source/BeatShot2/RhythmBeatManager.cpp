@@ -32,15 +32,13 @@ void ARhythmBeatManager::OnBeatFired()
     OnBeat.Broadcast();
 }
 
-FString ARhythmBeatManager::CheckHitAccuracy(float HitTime)
+FString ARhythmBeatManager::CheckHitAccuracy(float DistanceFromVeil)
 {
-    float Difference = FMath::Abs(HitTime - LastBeatTime);
-
-    if (Difference < 0.05f)
+    if (DistanceFromVeil < 50.0f)
         return "Perfect";
-    else if (Difference < 0.1f)
+    else if (DistanceFromVeil < 150.0f)
         return "Good";
-    else if (Difference < 0.15f)
+    else if (DistanceFromVeil < 300.0f)
         return "Bad";
     else
         return "Miss";

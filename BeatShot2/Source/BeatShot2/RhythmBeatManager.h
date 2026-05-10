@@ -42,7 +42,7 @@ public:
     void StartBeat();
 
     UFUNCTION(BlueprintCallable, Category = "Rhythm")
-    FString CheckHitAccuracy(float HitTime);
+    FString CheckHitAccuracy(float DistanceFromVeil);
 
 protected:
     virtual void BeginPlay() override;

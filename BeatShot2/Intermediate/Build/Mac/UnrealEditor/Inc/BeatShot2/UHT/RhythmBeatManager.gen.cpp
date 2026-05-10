@@ -138,7 +138,7 @@ struct Z_Construct_UFunction_ARhythmBeatManager_CheckHitAccuracy_Statics
 {
 	struct RhythmBeatManager_eventCheckHitAccuracy_Parms
 	{
-		float HitTime;
+		float DistanceFromVeil;
 		FString ReturnValue;
 	};
 #if WITH_METADATA
@@ -149,7 +149,7 @@ struct Z_Construct_UFunction_ARhythmBeatManager_CheckHitAccuracy_Statics
 #endif // WITH_METADATA
 
 // ********** Begin Function CheckHitAccuracy constinit property declarations **********************
-	static const UECodeGen_Private::FFloatPropertyParams NewProp_HitTime;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_DistanceFromVeil;
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 // ********** End Function CheckHitAccuracy constinit property declarations ************************
@@ -157,10 +157,10 @@ struct Z_Construct_UFunction_ARhythmBeatManager_CheckHitAccuracy_Statics
 };
 
 // ********** Begin Function CheckHitAccuracy Property Definitions *********************************
-const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ARhythmBeatManager_CheckHitAccuracy_Statics::NewProp_HitTime = { "HitTime", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RhythmBeatManager_eventCheckHitAccuracy_Parms, HitTime), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ARhythmBeatManager_CheckHitAccuracy_Statics::NewProp_DistanceFromVeil = { "DistanceFromVeil", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RhythmBeatManager_eventCheckHitAccuracy_Parms, DistanceFromVeil), METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_ARhythmBeatManager_CheckHitAccuracy_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RhythmBeatManager_eventCheckHitAccuracy_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ARhythmBeatManager_CheckHitAccuracy_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ARhythmBeatManager_CheckHitAccuracy_Statics::NewProp_HitTime,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ARhythmBeatManager_CheckHitAccuracy_Statics::NewProp_DistanceFromVeil,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ARhythmBeatManager_CheckHitAccuracy_Statics::NewProp_ReturnValue,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ARhythmBeatManager_CheckHitAccuracy_Statics::PropPointers) < 2048);
@@ -181,10 +181,10 @@ UFunction* Z_Construct_UFunction_ARhythmBeatManager_CheckHitAccuracy()
 }
 DEFINE_FUNCTION(ARhythmBeatManager::execCheckHitAccuracy)
 {
-	P_GET_PROPERTY(FFloatProperty,Z_Param_HitTime);
+	P_GET_PROPERTY(FFloatProperty,Z_Param_DistanceFromVeil);
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	*(FString*)Z_Param__Result=P_THIS->CheckHitAccuracy(Z_Param_HitTime);
+	*(FString*)Z_Param__Result=P_THIS->CheckHitAccuracy(Z_Param_DistanceFromVeil);
 	P_NATIVE_END;
 }
 // ********** End Class ARhythmBeatManager Function CheckHitAccuracy *******************************
@@ -283,7 +283,7 @@ struct Z_Construct_UClass_ARhythmBeatManager_Statics
 	};
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_ARhythmBeatManager_CheckHitAccuracy, "CheckHitAccuracy" }, // 2272602906
+		{ &Z_Construct_UFunction_ARhythmBeatManager_CheckHitAccuracy, "CheckHitAccuracy" }, // 3794022162
 		{ &Z_Construct_UFunction_ARhythmBeatManager_StartBeat, "StartBeat" }, // 1269177567
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -346,10 +346,10 @@ struct Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source
 		{ FSongData::StaticStruct, Z_Construct_UScriptStruct_FSongData_Statics::NewStructOps, TEXT("SongData"),&Z_Registration_Info_UScriptStruct_FSongData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSongData), 3966318763U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ARhythmBeatManager, ARhythmBeatManager::StaticClass, TEXT("ARhythmBeatManager"), &Z_Registration_Info_UClass_ARhythmBeatManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARhythmBeatManager), 2221263508U) },
+		{ Z_Construct_UClass_ARhythmBeatManager, ARhythmBeatManager::StaticClass, TEXT("ARhythmBeatManager"), &Z_Registration_Info_UClass_ARhythmBeatManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARhythmBeatManager), 739717209U) },
 	};
 }; // Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_330003819{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_1302658124{
 	TEXT("/Script/BeatShot2"),
 	Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics::ClassInfo),
 	Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics::ScriptStructInfo),
