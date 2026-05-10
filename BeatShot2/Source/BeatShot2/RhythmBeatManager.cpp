@@ -34,11 +34,15 @@ void ARhythmBeatManager::OnBeatFired()
 
 FString ARhythmBeatManager::CheckHitAccuracy(float DistanceFromVeil)
 {
-    if (DistanceFromVeil < 50.0f)
+    float AbsDistance = FMath::Abs(DistanceFromVeil);
+    
+    if (AbsDistance < 50.0f)
         return "Perfect";
-    else if (DistanceFromVeil < 150.0f)
+    else if (AbsDistance < 150.0f)
+        return "Great";
+    else if (AbsDistance < 300.0f)
         return "Good";
-    else if (DistanceFromVeil < 300.0f)
+    else if (AbsDistance < 500.0f)
         return "Bad";
     else
         return "Miss";
