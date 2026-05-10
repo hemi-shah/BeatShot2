@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "BeatShot2",
+			"Path": "../Source/BeatShot2.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "BeatShot2Editor",
+			"Path": "../Source/BeatShot2Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

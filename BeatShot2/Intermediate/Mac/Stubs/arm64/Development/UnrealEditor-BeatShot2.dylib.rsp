@@ -1,0 +1,20 @@
+-fdiagnostics-absolute-paths
+-fdiagnostics-color
+-L/usr/lib/swift
+-arch arm64
+-isysroot "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+-target arm64-apple-macos14.00
+-dead_strip
+-dynamiclib
+-headerpad_max_install_names
+-current_version 4753.73.91
+-compatibility_version 5.7.0
+-rpath @loader_path/ -rpath @executable_path/
+-undefined dynamic_lookup
+-Wl,-no_fixup_chains
+-install_name "@rpath/UnrealEditor-BeatShot2.dylib"
+"/Users/hemishah/Documents/Unreal Projects/BeatShot2/Intermediate/Build/Mac/arm64/UnrealEditor/Development/BeatShot2/Module.BeatShot2.gen.cpp.o"
+"/Users/hemishah/Documents/Unreal Projects/BeatShot2/Intermediate/Build/Mac/arm64/UnrealEditor/Development/BeatShot2/BeatShot2.cpp.o"
+"/Users/hemishah/Documents/Unreal Projects/BeatShot2/Intermediate/Build/Mac/arm64/UnrealEditor/Development/BeatShot2/RhythmBeatManager.cpp.o"
+"/Users/hemishah/Documents/Unreal Projects/BeatShot2/Intermediate/Build/Mac/arm64/UnrealEditor/Development/BeatShot2/PerModuleInline.gen.cpp.o"
+-o "/Users/hemishah/Documents/Unreal Projects/BeatShot2/Intermediate/Mac/Stubs/arm64/Development/UnrealEditor-BeatShot2.dylib"
