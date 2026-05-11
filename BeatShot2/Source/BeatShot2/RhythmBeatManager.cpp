@@ -42,8 +42,6 @@ FString ARhythmBeatManager::CheckHitAccuracy(float DistanceFromVeil)
         return "Great";
     else if (AbsDistance < 300.0f)
         return "Good";
-    else if (AbsDistance < 500.0f)
-        return "Bad";
     else
-        return "Miss";
+        return "Bad";
 }
