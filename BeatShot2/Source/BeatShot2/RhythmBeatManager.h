@@ -52,7 +52,7 @@ public:
     UFUNCTION(BlueprintCallable, Category = "Rhythm")
     void ResumeBeat();
 
-    UPROPERTY()
+    UPROPERTY(BlueprintReadOnly, Category = "Rhythm")
     UAudioComponent* MusicAudioComponent;
 
     UFUNCTION(BlueprintCallable, Category = "Rhythm")
