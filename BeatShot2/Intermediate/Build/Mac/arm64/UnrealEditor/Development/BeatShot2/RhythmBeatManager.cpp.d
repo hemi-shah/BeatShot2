@@ -4214,6 +4214,70 @@
   Runtime/Core/Public/CoreMinimal.h \
   Runtime/Engine/Classes/GameFramework/Actor.h \
   Runtime/Engine/Classes/Sound/SoundBase.h \
-  /Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/UnrealEditor/Inc/BeatShot2/UHT/RhythmBeatManager.generated.h \
+  Runtime/Engine/Classes/Components/AudioComponent.h \
+  Runtime/Engine/Public/Audio.h \
+  Runtime/Engine/Public/Audio/SoundParameterControllerInterface.h \
+  Runtime/AudioExtensions/Public/AudioParameterControllerInterface.h \
+  Runtime/CoreUObject/Public/UObject/Object.h \
+  Runtime/Engine/Classes/Kismet/BlueprintFunctionLibrary.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/SoundParameterControllerInterface.generated.h \
   Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
-  Runtime/CoreUObject/Public/UObject/ScriptMacros.h
+  Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
+  Runtime/Engine/Classes/Components/SceneComponent.h \
+  Runtime/Engine/Classes/Engine/EngineTypes.h \
+  Runtime/AudioExtensions/Public/IAudioParameterTransmitter.h \
+  Runtime/AudioExtensions/Public/AudioParameter.h \
+  Runtime/Core/Public/Containers/Array.h Runtime/Core/Public/CoreTypes.h \
+  Runtime/AudioExtensions/Public/IAudioProxyInitializer.h \
+  Runtime/Core/Public/Templates/UniquePtr.h \
+  Runtime/Core/Public/UObject/NameTypes.h \
+  Runtime/Core/Public/Math/RandomStream.h \
+  Runtime/Core/Public/Misc/TransactionallySafeCriticalSection.h \
+  Runtime/AudioMixer/Public/Quartz/AudioMixerQuantizedCommands.h \
+  Runtime/AudioMixer/Public/Quartz/AudioMixerClock.h \
+  Runtime/Core/Public/HAL/ThreadSafeBool.h \
+  Runtime/Engine/Classes/Sound/QuartzQuantizationUtilities.h \
+  Runtime/AudioMixer/Public/Quartz/QuartzMetronome.h \
+  Runtime/Core/Public/HAL/Platform.h \
+  Runtime/Core/Public/Templates/SharedPointer.h \
+  Runtime/Engine/Classes/Sound/QuartzSubscription.h \
+  Runtime/Engine/Classes/Sound/QuartzSubscriptionToken.h \
+  Runtime/Engine/Classes/Sound/QuartzInterfaces.h \
+  Runtime/Engine/Classes/Sound/QuartzCommandQueue.h \
+  Runtime/Core/Public/Containers/ConsumeAllMpmcQueue.h \
+  Runtime/Engine/Classes/Sound/SoundAttenuation.h \
+  Runtime/Engine/Classes/Sound/SoundModulationDestination.h \
+  Runtime/Engine/Classes/Sound/SoundSubmixSend.h \
+  Runtime/Engine/Classes/Sound/SoundSourceBusSend.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/AudioComponent.generated.h \
+  Runtime/Engine/Classes/Kismet/GameplayStatics.h \
+  Runtime/CoreUObject/Public/Templates/SubclassOf.h \
+  Runtime/CoreUObject/Public/UObject/Interface.h \
+  Runtime/Engine/Public/CollisionQueryParams.h \
+  Runtime/Engine/Classes/Engine/LatentActionManager.h \
+  Runtime/Engine/Classes/GameFramework/PlayerController.h \
+  Runtime/Engine/Classes/Kismet/KismetSystemLibrary.h \
+  Runtime/CoreUObject/Public/UObject/UnrealType.h \
+  Runtime/CoreUObject/Public/UObject/TextProperty.h \
+  Runtime/CoreUObject/Public/UObject/SoftObjectPtr.h \
+  Runtime/CoreUObject/Public/UObject/PropertyAccessUtil.h \
+  Runtime/Core/Public/Containers/UnrealString.h \
+  Runtime/Core/Public/CoreGlobals.h \
+  Runtime/Core/Public/Misc/EnumClassFlags.h \
+  Runtime/Core/Public/Templates/Function.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/CoreUObject/UHT/PropertyAccessUtil.generated.h \
+  Runtime/Core/Public/Templates/NoDestroy.h \
+  Runtime/CoreUObject/Public/UObject/ReflectedTypeAccessors.h \
+  Runtime/CoreUObject/Public/Templates/IsUEnumClass.h \
+  Runtime/CoreUObject/Public/UObject/TopLevelAssetPath.h \
+  Runtime/Engine/Classes/Engine/CollisionProfile.h \
+  Runtime/CoreUObject/Public/AssetRegistry/ARFilter.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/KismetSystemLibrary.generated.h \
+  Runtime/Engine/Classes/Sound/DialogueTypes.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/DialogueTypes.generated.h \
+  Runtime/Engine/Classes/Kismet/GameplayStaticsTypes.h \
+  Runtime/Engine/Classes/Engine/HitResult.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/GameplayStaticsTypes.generated.h \
+  Runtime/Engine/Classes/Particles/WorldPSCPool.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/GameplayStatics.generated.h \
+  /Users/hemishah/Desktop/git/BeatShot2/BeatShot2/Intermediate/Build/Mac/UnrealEditor/Inc/BeatShot2/UHT/RhythmBeatManager.generated.h

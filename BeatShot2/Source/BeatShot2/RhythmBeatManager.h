@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Sound/SoundBase.h"
+#include "Components/AudioComponent.h"
+#include "Kismet/GameplayStatics.h"
 #include "RhythmBeatManager.generated.h"
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnBeat);
@@ -49,6 +51,9 @@ public:
 
     UFUNCTION(BlueprintCallable, Category = "Rhythm")
     void ResumeBeat();
+
+    UPROPERTY()
+    UAudioComponent* MusicAudioComponent;
 
 protected:
     virtual void BeginPlay() override;

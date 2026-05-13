@@ -17,6 +17,7 @@ BEATSHOT2_API UClass* Z_Construct_UClass_ARhythmBeatManager_NoRegister();
 BEATSHOT2_API UFunction* Z_Construct_UDelegateFunction_BeatShot2_OnBeat__DelegateSignature();
 BEATSHOT2_API UScriptStruct* Z_Construct_UScriptStruct_FSongData();
 ENGINE_API UClass* Z_Construct_UClass_AActor();
+ENGINE_API UClass* Z_Construct_UClass_UAudioComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 UPackage* Z_Construct_UPackage__Script_BeatShot2();
 // ********** End Cross Module References **********************************************************
@@ -342,11 +343,16 @@ struct Z_Construct_UClass_ARhythmBeatManager_Statics
 		{ "Category", "Rhythm" },
 		{ "ModuleRelativePath", "RhythmBeatManager.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MusicAudioComponent_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "RhythmBeatManager.h" },
+	};
 #endif // WITH_METADATA
 
 // ********** Begin Class ARhythmBeatManager constinit property declarations ***********************
 	static const UECodeGen_Private::FStructPropertyParams NewProp_CurrentSong;
 	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnBeat;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_MusicAudioComponent;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 // ********** End Class ARhythmBeatManager constinit property declarations *************************
 	static constexpr UE::CodeGen::FClassNativeFunction Funcs[] = {
@@ -372,9 +378,11 @@ struct Z_Construct_UClass_ARhythmBeatManager_Statics
 // ********** Begin Class ARhythmBeatManager Property Definitions **********************************
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ARhythmBeatManager_Statics::NewProp_CurrentSong = { "CurrentSong", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARhythmBeatManager, CurrentSong), Z_Construct_UScriptStruct_FSongData, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CurrentSong_MetaData), NewProp_CurrentSong_MetaData) }; // 3966318763
 const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ARhythmBeatManager_Statics::NewProp_OnBeat = { "OnBeat", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARhythmBeatManager, OnBeat), Z_Construct_UDelegateFunction_BeatShot2_OnBeat__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnBeat_MetaData), NewProp_OnBeat_MetaData) }; // 3965909529
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARhythmBeatManager_Statics::NewProp_MusicAudioComponent = { "MusicAudioComponent", nullptr, (EPropertyFlags)0x0010000000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARhythmBeatManager, MusicAudioComponent), Z_Construct_UClass_UAudioComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MusicAudioComponent_MetaData), NewProp_MusicAudioComponent_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ARhythmBeatManager_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARhythmBeatManager_Statics::NewProp_CurrentSong,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARhythmBeatManager_Statics::NewProp_OnBeat,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARhythmBeatManager_Statics::NewProp_MusicAudioComponent,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ARhythmBeatManager_Statics::PropPointers) < 2048);
 // ********** End Class ARhythmBeatManager Property Definitions ************************************
@@ -422,10 +430,10 @@ struct Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source
 		{ FSongData::StaticStruct, Z_Construct_UScriptStruct_FSongData_Statics::NewStructOps, TEXT("SongData"),&Z_Registration_Info_UScriptStruct_FSongData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSongData), 3966318763U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ARhythmBeatManager, ARhythmBeatManager::StaticClass, TEXT("ARhythmBeatManager"), &Z_Registration_Info_UClass_ARhythmBeatManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARhythmBeatManager), 578140449U) },
+		{ Z_Construct_UClass_ARhythmBeatManager, ARhythmBeatManager::StaticClass, TEXT("ARhythmBeatManager"), &Z_Registration_Info_UClass_ARhythmBeatManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARhythmBeatManager), 3177988851U) },
 	};
 }; // Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_3262616632{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_1758695174{
 	TEXT("/Script/BeatShot2"),
 	Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics::ClassInfo),
 	Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics::ScriptStructInfo),

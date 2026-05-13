@@ -24,6 +24,11 @@ void ARhythmBeatManager::StartBeat()
         BeatInterval,
         true
     );
+
+    if (CurrentSong.SongAudio)
+    {
+        MusicAudioComponent = UGameplayStatics::SpawnSound2D(GetWorld(), CurrentSong.SongAudio);
+    }
 }
 
 void ARhythmBeatManager::OnBeatFired()
@@ -49,9 +54,19 @@ FString ARhythmBeatManager::CheckHitAccuracy(float DistanceFromVeil)
 void ARhythmBeatManager::PauseBeat()
 {
     GetWorld()->GetTimerManager().PauseTimer(BeatTimerHandle);
+    
+    if (MusicAudioComponent)
+    {
+        MusicAudioComponent->SetPaused(true);
+    }
 }
 
 void ARhythmBeatManager::ResumeBeat()
 {
     GetWorld()->GetTimerManager().UnPauseTimer(BeatTimerHandle);
+
+    if (MusicAudioComponent)
+    {
+        MusicAudioComponent->SetPaused(false);
+    }
 }
