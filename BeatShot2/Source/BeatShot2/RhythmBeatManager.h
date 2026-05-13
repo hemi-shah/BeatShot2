@@ -44,6 +44,12 @@ public:
     UFUNCTION(BlueprintCallable, Category = "Rhythm")
     FString CheckHitAccuracy(float DistanceFromVeil);
 
+    UFUNCTION(BlueprintCallable, Category = "Rhythm")
+    void PauseBeat();
+
+    UFUNCTION(BlueprintCallable, Category = "Rhythm")
+    void ResumeBeat();
+
 protected:
     virtual void BeginPlay() override;
 

@@ -189,6 +189,78 @@ DEFINE_FUNCTION(ARhythmBeatManager::execCheckHitAccuracy)
 }
 // ********** End Class ARhythmBeatManager Function CheckHitAccuracy *******************************
 
+// ********** Begin Class ARhythmBeatManager Function PauseBeat ************************************
+struct Z_Construct_UFunction_ARhythmBeatManager_PauseBeat_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Rhythm" },
+		{ "ModuleRelativePath", "RhythmBeatManager.h" },
+	};
+#endif // WITH_METADATA
+
+// ********** Begin Function PauseBeat constinit property declarations *****************************
+// ********** End Function PauseBeat constinit property declarations *******************************
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ARhythmBeatManager_PauseBeat_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ARhythmBeatManager, nullptr, "PauseBeat", 	nullptr, 
+	0, 
+0,
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ARhythmBeatManager_PauseBeat_Statics::Function_MetaDataParams), Z_Construct_UFunction_ARhythmBeatManager_PauseBeat_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UFunction_ARhythmBeatManager_PauseBeat()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ARhythmBeatManager_PauseBeat_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ARhythmBeatManager::execPauseBeat)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->PauseBeat();
+	P_NATIVE_END;
+}
+// ********** End Class ARhythmBeatManager Function PauseBeat **************************************
+
+// ********** Begin Class ARhythmBeatManager Function ResumeBeat ***********************************
+struct Z_Construct_UFunction_ARhythmBeatManager_ResumeBeat_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Rhythm" },
+		{ "ModuleRelativePath", "RhythmBeatManager.h" },
+	};
+#endif // WITH_METADATA
+
+// ********** Begin Function ResumeBeat constinit property declarations ****************************
+// ********** End Function ResumeBeat constinit property declarations ******************************
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ARhythmBeatManager_ResumeBeat_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ARhythmBeatManager, nullptr, "ResumeBeat", 	nullptr, 
+	0, 
+0,
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ARhythmBeatManager_ResumeBeat_Statics::Function_MetaDataParams), Z_Construct_UFunction_ARhythmBeatManager_ResumeBeat_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UFunction_ARhythmBeatManager_ResumeBeat()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ARhythmBeatManager_ResumeBeat_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ARhythmBeatManager::execResumeBeat)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->ResumeBeat();
+	P_NATIVE_END;
+}
+// ********** End Class ARhythmBeatManager Function ResumeBeat *************************************
+
 // ********** Begin Class ARhythmBeatManager Function StartBeat ************************************
 struct Z_Construct_UFunction_ARhythmBeatManager_StartBeat_Statics
 {
@@ -279,11 +351,15 @@ struct Z_Construct_UClass_ARhythmBeatManager_Statics
 // ********** End Class ARhythmBeatManager constinit property declarations *************************
 	static constexpr UE::CodeGen::FClassNativeFunction Funcs[] = {
 		{ .NameUTF8 = UTF8TEXT("CheckHitAccuracy"), .Pointer = &ARhythmBeatManager::execCheckHitAccuracy },
+		{ .NameUTF8 = UTF8TEXT("PauseBeat"), .Pointer = &ARhythmBeatManager::execPauseBeat },
+		{ .NameUTF8 = UTF8TEXT("ResumeBeat"), .Pointer = &ARhythmBeatManager::execResumeBeat },
 		{ .NameUTF8 = UTF8TEXT("StartBeat"), .Pointer = &ARhythmBeatManager::execStartBeat },
 	};
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_ARhythmBeatManager_CheckHitAccuracy, "CheckHitAccuracy" }, // 3794022162
+		{ &Z_Construct_UFunction_ARhythmBeatManager_PauseBeat, "PauseBeat" }, // 2121654601
+		{ &Z_Construct_UFunction_ARhythmBeatManager_ResumeBeat, "ResumeBeat" }, // 796426353
 		{ &Z_Construct_UFunction_ARhythmBeatManager_StartBeat, "StartBeat" }, // 1269177567
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -346,10 +422,10 @@ struct Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source
 		{ FSongData::StaticStruct, Z_Construct_UScriptStruct_FSongData_Statics::NewStructOps, TEXT("SongData"),&Z_Registration_Info_UScriptStruct_FSongData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSongData), 3966318763U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ARhythmBeatManager, ARhythmBeatManager::StaticClass, TEXT("ARhythmBeatManager"), &Z_Registration_Info_UClass_ARhythmBeatManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARhythmBeatManager), 739717209U) },
+		{ Z_Construct_UClass_ARhythmBeatManager, ARhythmBeatManager::StaticClass, TEXT("ARhythmBeatManager"), &Z_Registration_Info_UClass_ARhythmBeatManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARhythmBeatManager), 578140449U) },
 	};
 }; // Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_1302658124{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_3262616632{
 	TEXT("/Script/BeatShot2"),
 	Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics::ClassInfo),
 	Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h__Script_BeatShot2_Statics::ScriptStructInfo),

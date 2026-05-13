@@ -45,3 +45,13 @@ FString ARhythmBeatManager::CheckHitAccuracy(float DistanceFromVeil)
     else
         return "Bad";
 }
+
+void ARhythmBeatManager::PauseBeat()
+{
+    GetWorld()->GetTimerManager().PauseTimer(BeatTimerHandle);
+}
+
+void ARhythmBeatManager::ResumeBeat()
+{
+    GetWorld()->GetTimerManager().UnPauseTimer(BeatTimerHandle);
+}
