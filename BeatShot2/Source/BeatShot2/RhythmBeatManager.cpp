@@ -70,3 +70,13 @@ void ARhythmBeatManager::ResumeBeat()
         MusicAudioComponent->SetPaused(false);
     }
 }
+
+void ARhythmBeatManager::StopBeat()
+{
+    GetWorld()->GetTimerManager().ClearTimer(BeatTimerHandle);
+    
+    if (MusicAudioComponent)
+    {
+        MusicAudioComponent->Stop();
+    }
+}

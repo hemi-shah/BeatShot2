@@ -55,6 +55,9 @@ public:
     UPROPERTY()
     UAudioComponent* MusicAudioComponent;
 
+    UFUNCTION(BlueprintCallable, Category = "Rhythm")
+    void StopBeat();
+
 protected:
     virtual void BeginPlay() override;
 

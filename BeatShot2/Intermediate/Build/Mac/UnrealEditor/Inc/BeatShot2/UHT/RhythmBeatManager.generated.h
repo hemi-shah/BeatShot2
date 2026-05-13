@@ -35,6 +35,7 @@ struct FSongData;
 
 // ********** Begin Class ARhythmBeatManager *******************************************************
 #define FID_hemishah_Desktop_git_BeatShot2_BeatShot2_Source_BeatShot2_RhythmBeatManager_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execStopBeat); \
 	DECLARE_FUNCTION(execResumeBeat); \
 	DECLARE_FUNCTION(execPauseBeat); \
 	DECLARE_FUNCTION(execCheckHitAccuracy); \
